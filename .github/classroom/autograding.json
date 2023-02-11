@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Practicing Manipulation Strings",
+      "setup": "",
+      "run": "./gradlew manipulatingstrings-practicingmanipulatingstrings-test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Practicing Methods",
+      "setup": "",
+      "run": "./gradlew methods-practicingmethods-test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
