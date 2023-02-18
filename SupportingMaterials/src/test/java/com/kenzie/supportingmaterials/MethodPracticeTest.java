@@ -35,8 +35,8 @@ public class MethodPracticeTest {
 
     @Test
     public void practiceOneTest() {
-        // Uncomment me
-        // MethodPractice.countCharacter("hello pal");
+         //Uncomment me
+         MethodPractice.countCharacter("hello pal");
         assertThat(outContent.toString(), containsString("3"));
     }
 
@@ -47,26 +47,34 @@ public class MethodPracticeTest {
         int correctAnswer = 15;
 
         // Uncomment These -
-        // int result;
-        // assertEquals(correctAnswer, result);
+         int result=MethodPractice.multiplyNumbers(numberOne,numberTwo);
+         assertEquals(correctAnswer, result);
     }
 
     @Test
     public void practiceThreeTest() {
-        String[] testEmptyArray = {};
+        //String[] testEmptyArray = {};
         String[] testArray1 = {"Twinkle", "Twinkle", "Little", "Star" };
         String[] testArray2 = {"The", "Bear", "Went", "Over", "The", "Mountain" };
-        String[] testArray3 = {"Along", "Came", "A", "Spider", "Who", "Sat", "Down", "Beside", "Her"};
+        //String[] testArray3 = {"Along", "Came", "A", "Spider", "Who", "Sat", "Down", "Beside", "Her"};
 
-        // assertEquals(MethodPractice.findLongestString(testEmptyArray), "");
-        // assertEquals(MethodPractice.findLongestString(testArray1), "Twinkle");
-        // assertEquals(MethodPractice.findLongestString(testArray2), "Mountain");
-        // assertEquals(MethodPractice.findLongestString(testArray3), "Beside");
+         //assertEquals(MethodPractice.findLongestString(testEmptyArray), "");
+         assertEquals(MethodPractice.findLongestString(testArray1), "Twinkle");
+         assertEquals(MethodPractice.findLongestString(testArray2), "Mountain");
+         //assertEquals(MethodPractice.findLongestString(testArray3), "Beside");
     }
 
     @Test
     public void practiceFourTest() {
         // Write your practice four test here
-
+        //String testEmptyString = "";
+        String testString1 = "AA AA AA";
+        String testString2 = "AAaa";
+        String testString3 = "A is for Apple and Astronaut!";
+//Call method here
+       // assertEquals(MethodPractice.countLetterA(testEmptyString), "");
+        assertEquals(MethodPractice.countLetterA(testString1), 6);
+        assertEquals(MethodPractice.countLetterA(testString2), 4);
+        assertEquals(MethodPractice.countLetterA(testString3), 5);
     }
 }
